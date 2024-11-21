@@ -1,0 +1,337 @@
+@import url(./globalstyle.css);
+
+header{
+    background-color: var(--color-primary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-sizing: border-box;
+}
+header > a > img{
+    width: 30px;
+    margin-right: 25px;
+    padding: 5px;
+    background-color: white;
+    color: var(--color-secundary);
+    border-radius: 5px;
+}
+.primeira__secao{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imgs/selva.jpg);
+    background-color: rgb(95, 129, 90);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    align-items: center;
+    
+}
+.primeira__secao--div1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    gap: 35px;
+    align-items: center;
+    margin-top: 15px;
+}
+.primeira__secao--div1 > nav{
+    padding-right: 25px;
+    border-right: 1px solid white;
+
+}
+.primeira__secao--div1 > img{
+    width: 120px;
+    margin-right: 60px;
+}
+.primeira__secao--div2{
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    gap: 25px;
+    height: 500px;
+}
+.primeira__secao--div2 > div{
+    width: 50%;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.primeira__secao--div2 > div > h2{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.primeira__secao--div2 > div > button{
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 20px;
+}
+#mao{
+    background-image: url(../imgs/mao.png);
+    background-repeat: no-repeat;
+}
+.segunda__secao{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.segunda__secao > div{
+    padding: 25px;
+    width: 300px;
+    margin-top: -80px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+}
+.segunda__secao > div > img{
+    width: 150px;
+}
+.segunda__secao > div > h3{
+    font-weight: 800;
+    font-size: 30px;
+}
+.terceira__secao{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 35px;
+}
+.terceira__secao > div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+#banner-2{
+    width: 60%;
+    background-image: url(../imgs/grafico.png);
+    width: 500px;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 25px;
+}
+.terceira__secao--div2 {
+    width: 40%;
+    gap: 15px;
+    line-height: 25px;
+    
+}
+.terceira__secao--div2 > h4{
+    font-size: 30px;
+    color: var(--color-secundary);
+}
+.terceira__secao--div2 > h3{
+    font-size: 50px;
+    color: var(--color-primary);
+}
+.quarta__secao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    gap: 25px;
+    text-align: center;
+}
+.quarta__secao > h2 {
+    font-size: 35px;
+    color: var(--color-secundary);
+    
+}   
+.quarta__secao > h2 > span{
+    color: var(--color-primary);
+}
+.quarta__secao--container{
+    display: flex;
+    gap: 30px;
+}
+.quarta__secao--container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 300px;
+    font-size: 20px;
+    align-items: center;
+    color: var(--color-primary);
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.quarta__secao--container > div > img{
+    width: 100%;
+    border-radius: 25px;
+}
+.quarta__secao--container > div > button{
+    padding: 25px;
+    border-radius: 15px;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+.quinta__secao{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 150px;
+    background-color: var(--color-primary);
+    align-items: center;
+    font-size: 30px;
+}
+.quinta__secao > h2{
+    inline-size: 600px;
+    color: white;
+
+}
+.quinta__secao > h2 > span{
+    color: var(--color-secundary);
+}
+.sexta__secao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    gap: 25px;
+}
+.sexta__secao > h2{
+    font-size: 25px;
+}
+.sexta__secao > h2 > span {
+    color: var(--color-primary);
+}
+    
+.sexta__secao--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 30px;
+    justify-content: center;
+}
+.sexta__secao--container > div{
+    width: 45%;
+    box-sizing: border-box;
+    padding: 35px;
+    border: 1px solid gray;
+}
+footer{
+    display: flex;
+    margin-top: 15px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: var(--color-secundary);
+    color: white;
+}
+.primeira__secao--div1 > nav:hover{
+    color: var(--color-primary);
+}
+.setima__secao{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.setima__secao > form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.setima__secao > form > input{
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #f1f1f13d;
+    border: 1px solid black;
+}
+#button__form:hover{
+    background-color: var(--color-secundary);
+    color: white;
+}
+.titulo__form{
+    font-size: 35px;
+    color: var(--color-secundary);
+}
+
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+.slider-content input{
+    display: none;
+}
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+.slide-box img{
+    width: 100%;
+    height: 700px;
+}
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+.nav-manual .manual-btn:hover{
+    background-color: var(--color-primary);
+}
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background-color: var(--color-primary);
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background-color: var(--color-primary);
+}
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: var(--color-primary);
+}
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}

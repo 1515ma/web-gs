@@ -1,0 +1,23 @@
+@import url(./style.css);
+main{
+    display: flex;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    justify-content: center;
+}
+main > div{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 800px;
+    background-color: rgba(128, 128, 128, 0.027);
+    padding: 45px;
+
+}
+main > div > h2{
+    font-size: 30px;
+}
+main > div > img{
+    width: 500px;
+}
